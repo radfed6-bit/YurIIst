@@ -9,9 +9,8 @@ __pycache__/
 venv/
 
 # Data
-data/*.db
-data/*.db-wal
-data/*.db-shm
+data/legal.db-wal
+data/legal.db-shm
 
 # Backup
 backup/*.db
