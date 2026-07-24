@@ -1,0 +1,37 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Backup
+backup/*.db
+
+# Logs
+*.log
+error_log.txt
+
+# Agent / IDE
+AGENTS.md
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker (not used, stale template)
+docker-compose.override.yml
+docker-compose.yml
+
+# Other
+pipeline-md-2.1.0/
